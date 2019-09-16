@@ -1,0 +1,12 @@
+{
+  "require": {
+    "mobiledetect/mobiledetectlib": "^2.8",
+    "geoip2/geoip2": "~2.0",
+    "ext-json": "*"
+  },
+  "scripts": {
+    "geoip-update": [
+      "curl http://geolite.maxmind.com/download/geoip/database/GeoLite2-Country.mmdb.gz | gunzip > GeoLite2-Country.mmdb"
+    ]
+  }
+}

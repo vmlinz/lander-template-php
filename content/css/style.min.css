@@ -1,0 +1,879 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'AcademiaPlain';
+    src: url("//dadbab.info/content/EJFdQfSa1Ol8EUb/fonts/AcademiaPlain.eot");
+    src: local("☺"), url("//dadbab.info/content/EJFdQfSa1Ol8EUb/fonts/AcademiaPlain.woff") format("woff"), url("//dadbab.info/content/EJFdQfSa1Ol8EUb/fonts/AcademiaPlain.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'StudioScriptC';
+    src: url("//dadbab.info/content/EJFdQfSa1Ol8EUb/fonts/StudioScriptC.woff") format("woff"), url("//dadbab.info/content/EJFdQfSa1Ol8EUb/fonts/StudioScriptC.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal
+}
+@font-face {
+    font-family: 'arialregular';
+    src: url("//dadbab.info/content/EJFdQfSa1Ol8EUb/fonts/arial.woff2") format("woff2"), url("//dadbab.info/content/EJFdQfSa1Ol8EUb/fonts/arial.woff") format("woff");
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'arialbold';
+    src: url("//dadbab.info/content/EJFdQfSa1Ol8EUb/fonts/arialbd.woff2") format("woff2"), url("//dadbab.info/content/EJFdQfSa1Ol8EUb/fonts/arialbd.woff") format("woff");
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'arialbold_italic';
+    src: url("//dadbab.info/content/EJFdQfSa1Ol8EUb/fonts/arialbi.woff2") format("woff2"), url("//dadbab.info/content/EJFdQfSa1Ol8EUb/fonts/arialbi.woff") format("woff");
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'arialitalic';
+    src: url("//dadbab.info/content/EJFdQfSa1Ol8EUb/fonts/ariali.woff2") format("woff2"), url("//dadbab.info/content/EJFdQfSa1Ol8EUb/fonts/ariali.woff") format("woff");
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'arialblack';
+    src: url("//dadbab.info/content/EJFdQfSa1Ol8EUb/fonts/ariblk.woff2") format("woff2"), url("//dadbab.info/content/EJFdQfSa1Ol8EUb/fonts/ariblk.woff") format("woff");
+    font-weight: normal;
+    font-style: normal
+}
+
+html {
+    height: 100%
+}
+
+body {
+    font-family: 'arialregular', sans-serif;
+    font-size: 16px;
+    color: #000;
+    background-color: #000;
+    height: 100%;
+    margin-bottom: -50px
+}
+
+.break {
+    display: none;
+}
+
+.row {
+    position: relative
+}
+
+.w1170 {
+    max-width: 1170px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto
+}
+
+.mr_auto {
+    margin-left: auto;
+    margin-right: auto
+}
+
+.box1 {
+    background-image: url("//dadbab.info/content/EJFdQfSa1Ol8EUb/img/bg1.png");
+    background-repeat: no-repeat;
+    background-position: center top;
+    padding-top: 65px
+}
+
+.box2 {
+    background-image: url("//dadbab.info/content/EJFdQfSa1Ol8EUb/img/bg2.png");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    padding-top: 50px
+}
+
+.monet-mini {
+    color: #cbcbca;
+    font-family: "StudioScriptC";
+    font-size: 30px;
+    font-weight: 400;
+    display: inline-block;
+    margin-right: 30px;
+
+}
+
+.monet-mini img {
+    float: left;
+    margin-right: 15px
+}
+
+.list-menu {
+    background: transparent url("//dadbab.info/content/EJFdQfSa1Ol8EUb/img/liniay.png") no-repeat left bottom;
+    margin-top: 60px;
+    min-height: 80px;
+    text-align: right;
+    padding-right: 50px
+}
+
+.list-menu li {
+    display: inline-block;
+    padding: 0 25px
+}
+
+.list-menu li a {
+    color: #fcfbfb;
+    font-family: AcademiaPlain;
+    font-size: 30px;
+    font-weight: 400
+}
+
+.blackBox {
+    position: relative;
+    padding: 15px;
+    margin: 15px 0;
+    background-color: rgba(0, 0, 0, 0.5)
+}
+
+.bigh2 {
+    color: #fcfbfb;
+    font-family: AcademiaPlain;
+    font-size: 48px;
+    font-weight: 400;
+    margin-bottom: 40px
+}
+
+.bigh1 {
+    color: #f7d766;
+    font-family: AcademiaPlain;
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 1;
+}
+
+.bigh5 {
+    color: #fcfbfb;
+    font-family: AcademiaPlain;
+    font-size: 30px;
+    font-weight: 400
+}
+
+.form1 h3 {
+    color: #fafafa;
+    font-family: AcademiaPlain;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center
+}
+
+.old_price {
+    font-size: 25px;
+    text-decoration: line-through;
+}
+.new_price {
+    font-size: 35px;
+}
+
+.form1 .form-control {
+    background-color: #f7d766;
+    border: 2px solid #b5b4b4;
+    color: #212121;
+    font-family: AcademiaPlain;
+    font-size: 22px;
+    line-height: normal;
+    font-weight: 400;
+    padding-bottom: 0;
+    max-width: 360px;
+    margin: 0 auto 20px
+}
+
+.form1 .btn {
+    font-size: 30px;
+    margin: 20px auto 10px;
+    display: block
+}
+
+.h1 {
+    color: #fdfdfb;
+    font-family: AcademiaPlain;
+    font-size: 48px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 30px
+}
+
+.cards {
+    cursor: pointer;
+    margin-bottom: 40px;
+    min-height: 518px
+}
+
+.cards .front {
+    background: #101c3a url("//dadbab.info/content/EJFdQfSa1Ol8EUb/img/karta.png") no-repeat center center;
+    background-size: contain;
+    border: 3px solid #e6c962;
+    border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    overflow: hidden
+}
+
+.cards .back {
+    background: #101c3a url("//dadbab.info/content/EJFdQfSa1Ol8EUb/img/karta.png") no-repeat center center;
+    background-size: contain;
+    border: 3px solid #e6c962;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative !important
+}
+
+.cards .back .whiteBg {
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.9);
+    min-height: 100%;
+    padding: 15px
+}
+
+.cards .back .whiteBg img {
+    margin: 0 auto 15px;
+    display: block
+}
+
+.cards .back .whiteBg p {
+    color: #30302f;
+    font-family: arialregular;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 400;
+    min-height: 216px
+}
+
+.cards .back .whiteBg .name {
+    color: #30302f;
+    font-family: arialitalic;
+    font-size: 16px;
+    font-style: italic;
+    text-align: right
+}
+
+.strela {
+    display: block;
+    margin: 0 auto 20px
+}
+
+.yelloBox {
+    background-color: #f7d766;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center
+}
+
+.yelloBox p {
+    color: #3d3d3d;
+    font-family: StudioScriptC;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 36px;
+    margin-bottom: 0
+}
+
+.pi {
+    font-family: AcademiaPlain;
+    font-size: 30px;
+    font-weight: 400;
+    color: #fdfdfb;
+    line-height: 32px
+}
+
+.pi span {
+    color: #f7d766
+}
+
+.piItalic {
+    color: #f7d766;
+    font-weight: 400;
+    font-family: StudioScriptC;
+    font-size: 36px;
+    line-height: 50px;
+    margin-top: 30px
+}
+
+.piItalic span {
+    font-family: AcademiaPlain;
+    /*font-size: 48px*/
+}
+
+.opacity68 {
+    opacity: .68
+}
+
+#wrap-order-form {
+    max-width: 100%;
+    margin: 50px 15px 100px
+}
+
+#wrap-order-form .container {
+    max-width: 100% !important;
+    background: none rgba(0, 0, 0, 0.5);
+    box-shadow: none;
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+    position: relative;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    margin-bottom: 40px
+}
+
+#wrap-order-form .formtitle {
+    margin: 20px 0;
+    font-family: AcademiaPlain;
+    font-size: 24px !important;
+    font-weight: 400 !important;
+    color: #fdfcfa;
+    padding-right: 0;
+    padding-top: 20px;
+    background: 0;
+    height: auto;
+    margin-bottom: 30px !important
+}
+
+#wrap-order-form .formtitle span {
+    color: #f24841
+}
+
+#wrap-order-form .container {
+    width: 100%
+}
+
+#wrap-order-form .call_time .label {
+    color: #000
+}
+
+.call_time_cont {
+    width: 80%;
+    left: 8%
+}
+
+#wrap-order-form .container h4 {
+    color: #a19e9e;
+    font-family: AcademiaPlain;
+    font-size: 18px;
+    font-weight: 400
+}
+
+#wrap-order-form .container h6 {
+    position: relative;
+    color: #b2b1b1;
+    font-family: AcademiaPlain;
+    font-size: 18px;
+    font-weight: 400
+}
+
+#wrap-order-form .form-control {
+    background-color: #f7d766;
+    border: 2px solid #b5b4b4;
+    color: #212121;
+    font-family: AcademiaPlain;
+    font-size: 22px;
+    line-height: normal;
+    font-weight: 400;
+    padding-bottom: 0;
+    height: auto
+}
+
+button, 
+button:active, 
+button:focus {
+    outline: none!important;
+}
+
+.btn {
+    background-image: url("//dadbab.info/content/EJFdQfSa1Ol8EUb/img/button.png");
+    background-repeat: no-repeat;
+    background-color: transparent;
+    width: 230px;
+    height: 67px;
+    border-radius: 4px;
+    color: #fcfcfa;
+    font-family: arialregular;
+    font-size: 30px;
+    font-weight: 400;
+    -webkit-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    transition: all .2s linear;
+    margin: 0 auto;
+    display: block;
+}
+
+.btn:hover,
+.btn:active,
+.btn:focus {
+    background-image: url("//dadbab.info/content/EJFdQfSa1Ol8EUb/img/button-active.png")
+}
+
+footer {
+    height: 50px;
+    text-align: center
+}
+
+footer p {
+    opacity: .4;
+    color: #fefefe;
+    font-family: AcademiaPlain;
+    font-size: 18px;
+    font-weight: 400
+}
+
+.blackBox__text {
+    float: left;
+    width: 45%;
+}
+
+.blackBox__image {
+    float: left;
+    padding-top: 50px;
+    width: 55%;
+}
+
+.blackBox__image img {
+  display: block;
+   margin: auto;
+}
+
+@media(max-width:1116px) {
+    .bigh1 {
+        font-size: 75px
+    }
+    .monet-mini {
+        font-size: 20px;
+        padding-left: 10px;
+    }
+}
+
+@media(max-width:1023px) {
+    .last-card {
+        position: relative;
+        perspective: 500px;
+        display: block;
+        margin: auto;
+        float: none;
+    }
+    .monet-mini {
+        display: block;
+        margin-left: 20px;
+        margin-right: 0;
+    }
+    .break {
+        display: block;
+    }
+        .blackBox__text {
+    float: none;
+width: 100%;
+}
+
+.blackBox__image {
+    float: none;
+    width: 100%;
+
+}
+}
+
+@media(max-width:840px) {
+    .bigh1 {
+        font-size: 55px;
+        line-height: 55px
+    }
+    .list-menu {
+        padding-right: 0
+    }    
+    .text-right {
+        display: none;
+    }
+}
+
+@media(max-width:740px) {
+    .bigh1 {
+        font-size: 55px;
+        line-height: 55px
+    }
+    .list-menu {
+        min-height: 120px
+    }
+    .hint {
+        display: none;
+    }
+    .monet-mini {
+       margin-bottom: 10px;
+       margin-right: 0;
+       font-size: 20px;
+       padding: 0 25px;
+    }
+}
+
+@media(max-width:500px) {
+    .box1 {
+        padding-top: 25px
+    }
+    .bigh1 {
+        font-size: 32px;
+        line-height: 40px
+    }
+    .bigh2 {
+        font-size: 38px;
+        margin-bottom: 20px
+    }
+    .list-menu {
+        background: 0;
+        margin-top: 10px;
+        min-height: 80px;
+        text-align: left;
+        padding-right: 0
+    }
+    .list-menu li {
+        display: block
+    }
+    .list-menu li a {
+        font-size: 24px
+    }
+    .bigh5 {
+        font-size: 20px
+    }
+    .form1 h3 {
+        font-size: 24px
+    }
+    .btn {
+        font-size: 22px
+    }
+    .h1 {
+        font-size: 32px;
+        margin-top: 20px
+    }
+    .yelloBox p {
+        font-size: 30px;
+        line-height: 30px
+    }
+    .pi {
+        font-size: 20px;
+        line-height: 24px
+    }
+    #wrap-order-form {
+        margin: 50px 15px 60px
+    }
+    #wrap-order-form .container h6 {
+        margin-bottom: 20px
+    }
+}
+
+
+/*! fancyBox v2.1.4 fancyapps.com | fancyapps.com/fancybox/#license */
+
+.fancybox-wrap,
+.fancybox-skin,
+.fancybox-outer,
+.fancybox-inner,
+.fancybox-image,
+.fancybox-wrap iframe,
+.fancybox-wrap object,
+.fancybox-nav,
+.fancybox-nav span,
+.fancybox-tmp {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: top
+}
+
+.fancybox-wrap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 8020
+}
+
+.fancybox-skin {
+    position: relative;
+    background: white;
+    color: #444;
+    text-shadow: none;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px
+}
+
+.fancybox-opened {
+    z-index: 8030
+}
+
+.fancybox-opened .fancybox-skin {
+    -webkit-box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5)
+}
+
+.fancybox-outer,
+.fancybox-inner {
+    position: relative
+}
+
+.fancybox-inner {
+    overflow: hidden
+}
+
+.fancybox-type-iframe .fancybox-inner {
+    -webkit-overflow-scrolling: touch
+}
+
+.fancybox-error {
+    color: #444;
+    font: 14px/20px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 15px;
+    white-space: nowrap
+}
+
+.fancybox-image,
+.fancybox-iframe {
+    display: block;
+    width: 100%;
+    height: 100%
+}
+
+.fancybox-image {
+    max-width: 100%;
+    max-height: 100%
+}
+
+#fancybox-loading,
+.fancybox-close,
+.fancybox-prev span,
+.fancybox-next span {
+    background-image: url("//dadbab.info/content/EJFdQfSa1Ol8EUb/js/vendor/fancybox/fancybox_sprite.png")
+}
+
+#fancybox-loading {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -22px;
+    margin-left: -22px;
+    background-position: 0 -108px;
+    opacity: .8;
+    cursor: pointer;
+    z-index: 8060
+}
+
+#fancybox-loading div {
+    width: 44px;
+    height: 44px;
+    background: url("//dadbab.info/content/EJFdQfSa1Ol8EUb/js/vendor/fancybox/fancybox_loading.gif") center center no-repeat
+}
+
+.fancybox-close {
+    position: absolute;
+    top: -18px;
+    right: -18px;
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+    z-index: 8040
+}
+
+.fancybox-nav {
+    position: absolute;
+    top: 0;
+    width: 40%;
+    height: 100%;
+    cursor: pointer;
+    text-decoration: none;
+    background: transparent url("//dadbab.info/content/EJFdQfSa1Ol8EUb/js/vendor/fancybox/blank.gif");
+    -webkit-tap-highlight-color: transparent;
+    z-index: 8040
+}
+
+.fancybox-prev {
+    left: 0
+}
+
+.fancybox-next {
+    right: 0
+}
+
+.fancybox-nav span {
+    position: absolute;
+    top: 50%;
+    width: 36px;
+    height: 34px;
+    margin-top: -18px;
+    cursor: pointer;
+    z-index: 8040;
+    visibility: hidden
+}
+
+.fancybox-prev span {
+    left: 10px;
+    background-position: 0 -36px
+}
+
+.fancybox-next span {
+    right: 10px;
+    background-position: 0 -72px
+}
+
+.fancybox-nav:hover span {
+    visibility: visible
+}
+
+.fancybox-tmp {
+    position: absolute;
+    top: -99999px;
+    left: -99999px;
+    visibility: hidden;
+    max-width: 99999px;
+    max-height: 99999px;
+    overflow: visible !important
+}
+
+.fancybox-lock {
+    overflow: hidden
+}
+
+.fancybox-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    display: none;
+    z-index: 8010;
+    background: url("//dadbab.info/content/EJFdQfSa1Ol8EUb/js/vendor/fancybox/fancybox_overlay.png")
+}
+
+.fancybox-overlay-fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0
+}
+
+.fancybox-lock .fancybox-overlay {
+    overflow: auto;
+    overflow-y: scroll
+}
+
+.fancybox-title {
+    visibility: hidden;
+    font: normal 13px/20px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    position: relative;
+    text-shadow: none;
+    z-index: 8050
+}
+
+.fancybox-opened .fancybox-title {
+    visibility: visible
+}
+
+.fancybox-title-float-wrap {
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    margin-bottom: -35px;
+    z-index: 8050;
+    text-align: center
+}
+
+.fancybox-title-float-wrap .child {
+    display: inline-block;
+    margin-right: -100%;
+    padding: 2px 20px;
+    background: transparent;
+    background: rgba(0, 0, 0, 0.8);
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    text-shadow: 0 1px 2px #222;
+    color: #FFF;
+    font-weight: bold;
+    line-height: 24px;
+    white-space: nowrap
+}
+
+.fancybox-title-outside-wrap {
+    position: relative;
+    margin-top: 10px;
+    color: #fff
+}
+
+.fancybox-title-inside-wrap {
+    padding-top: 10px
+}
+
+.fancybox-title-over-wrap {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: #fff;
+    padding: 10px;
+    background: #000;
+    background: rgba(0, 0, 0, 0.8)
+}
+
+footer {
+    padding-bottom: 20px;
+    line-height: 26px;
+    margin-top: -40px;
+    font-size: 14px !important;
+    text-align: center;
+    height: auto;
+}
+
+.flipcard {
+    position: relative;
+    perspective: 500px;
+}
+
+.flipcard.h:hover .front,
+.flipcard.h.flip .front {
+    transform: rotateY(180deg);
+}
+
+.flipcard.h:hover .back,
+.flipcard.h.flip .back {
+    transform: rotateY(0deg);
+}
+
+.flipcard.h .back {
+    transform: rotateY(-180deg);
+}
+
+.flipcard .front,
+.flipcard .back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    transition: all 0.5s ease-in;
+    border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px color: white;
+    background-color: #000;
+    backface-visibility: hidden;
+}
+
+.show {
+    display: block !important;
+    transform: none !important;
+}
+
+.hide {
+    display: none;
+}
+.sliderform {
+    padding-bottom: 20px;
+}
